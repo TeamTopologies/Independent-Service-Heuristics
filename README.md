@@ -16,8 +16,10 @@ Use the checklist below to ask questions about the candidate domain / service / 
 
 ## Checklist
 
-1. Does it make any logical sense to offer this thing "as a service"?
-2. Could you imagine the thing branded as a public cloud service (like _AvocadoOnline.com_ 🥑)?
-3. Could this be managed a viable cloud service in terms of revenue and customers?
-4. Does the organisation currently track costs and investment in this thing separately from similar things?
-5. 
+1. Could it make any logical sense to offer this thing "as a service"?
+2. Could you imagine this thing branded as a public cloud service (like _AvocadoOnline.com_ 🥑)?
+3. Could this thing be managed a viable cloud service in terms of revenue and customers?
+4. Could the organisation currently track costs and investment in this thing separately from similar things? 
+5. Could this thing operate with minimal data from other sources?
+6. Could this thing have a small/well-defined set of user types or customers (user personas)?
+7. 
