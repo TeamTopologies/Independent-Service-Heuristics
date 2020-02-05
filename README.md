@@ -22,4 +22,4 @@ Use the checklist below to ask questions about the candidate domain / service / 
 4. Could the organisation currently track costs and investment in this thing separately from similar things? 
 5. Could this thing operate with minimal data from other sources?
 6. Could this thing have a small/well-defined set of user types or customers (user personas)?
-7. 
+7. Could a team or set of teams effectively build and operate a service based on this thing?
