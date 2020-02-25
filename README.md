@@ -8,7 +8,7 @@ Rules-of-thumb for identifying candidate value streams and domain boundaries by 
 
 ## Overview
 
-When designing organizations for fast flow of change, we need to find effective boundaries between different streams of change. Techniques like Domain Driven Design (DDD) are very powerful for this, but can be quite involved and difficult to learn. An lightweight intermediate approach is to ask "could this thing be run as a cloud-hosted (SaaS) service or product?". 
+When designing organizations for fast flow of change, we need to find effective boundaries between different streams of change. Techniques like Domain Driven Design (DDD) are very powerful for this, but can be quite involved and difficult to learn. A lightweight intermediate approach is to ask "could this thing be run as a cloud-hosted (SaaS) service or product?". 
 
 ## How to use
 
