@@ -14,42 +14,42 @@ When designing organizations for fast flow of change, we need to find effective 
 
 Choose an area of the organisation's focus to be represented in software: a user journey, a "product", a possible business domain, a software service, an entire software application, a set of tasks for a single user persona, a possible value stream, etc.
 
-Use the checklist below to ask questions about the candidate domain / service / application / value stream. The more "yes" or "probably" answers, the greater the chance that you have found a good candidate for being a separate stream of change. This means that we could arrange one or more Stream-Aligned teams to this area.
+Use the checklist below to ask questions about the candidate domain / service / application / value stream. The more "yes" or "probably" answers, the greater the chance that you have found a good candidate for being a separate stream of change. This means that we could arrange one or more Stream-Aligned teams to this area.- 
 
 ## Checklist
 
 1. Could it make any logical sense to offer this thing "as a service"?
 
-Is this thing independent enough?
-Would consumers understand or value it?
-Would it simplify execution?
+- Is this thing independent enough?
+- Would consumers understand or value it?
+- Would it simplify execution?
 
 2. Could you imagine this thing branded as a public cloud service (like _AvocadoOnline.com_ 🥑)?
 
-Would it be a compelling offering?
-Could a marketing campaign be convincing?
+- Would it be a compelling offering?
+- Could a marketing campaign be convincing?
 
 3. Could this thing be managed a viable cloud service in terms of revenue and customers?
 
-What would a subscription payment include?
-Is there a clearly-defined customer base or segment?
+- What would a subscription payment include?
+- Is there a clearly-defined customer base or segment?
 
 4. Could the organisation currently track costs and investment in this thing separately from similar things? 
 
-Is the thing too interconnected with other things in the organisation? Or fairly separate?
-Does the organisation track this separately?
+- Is the thing too interconnected with other things in the organisation? Or fairly separate?
+- Does the organisation track this separately?
 
 5. Could this thing operate with minimal data from other sources?
 
-Is the thing dependent on lots of data from multiple sources? Or fairly independent?
-Are the sources internal (under our control) or external?
+- Is the thing dependent on lots of data from multiple sources? Or fairly independent?
+- Are the sources internal (under our control) or external?
 
 6. Could this thing have a small/well-defined set of user types or customers (user personas)?
 
-Is the thing meeting specific user needs?
-Do we know (or can we easily characterise) these users and their needs?
+- Is the thing meeting specific user needs?
+- Do we know (or can we easily characterise) these users and their needs?
 
 7. Could a team or set of teams effectively build and operate a service based on this thing?
 
-Would the cognitive load be too high for a team or a set of teams?
-Would significant infrastructure be needed?
+- Would the cognitive load be too high for a team or a set of teams?
+- Would significant infrastructure be needed?
