@@ -25,7 +25,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
 2. Could you imagine this thing branded as a public cloud service (like _AvocadoOnline.com_ 🥑)?
     - Would it be a compelling offering?
     - Could a marketing campaign be convincing?
-3. Could this thing be managed a viable cloud service in terms of revenue and customers?
+3. Could this thing be managed as a viable cloud service in terms of revenue and customers?
     - What would a subscription payment include?
     - Is there a clearly-defined customer base or segment?
 4. Could the organisation currently track costs and investment in this thing separately from similar things? 
