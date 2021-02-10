@@ -52,15 +52,13 @@ Use the checklist below to ask questions about the candidate domain / service / 
 
 ### Additional Considerations
 
-* **Skills Liquidity**: Team vs members of the team - considering skills liquidity (Chris Matts)
-* **Loose Couple**: Does this 'thing' make sense to independently migrate / deploy in the public cloud independant of related 'things' 
+* **Skills Liquidity**: Team vs members of the team - consider skills liquidity
+* **Loose Couple**: Does this 'thing' make sense to independently migrate / deploy in the public cloud independent of related 'things' 
 * **Tight Coupling**: Do you have any dependencies on vendor / 3rd party software that prevents scaling if demand increases 
-* **Reuse**: Does an existing 'thing' / service already exist on public cloud that you could use as a commoditized service instead 
 * **Commercial Opportunity**: Is there demand for this 'thing' outside of the context of its current usage, could this be used more broadly within your organization or to different customer segments.
-* **Data Govoernance**: Does this 'thing' as as a master or authoritative source for key static / reference / client data?
+* **Data Governance**: Does this 'thing' as as a master or authoritative source for key static / reference / client data?
 * **Interfact Contracts**: Do you have versioned interface contracts and the ability to deploy new versions without impacting existing 'customers' (consumers)
 * **Resilience / scalability**: as demand for your 'thing' scales do you have a linear increase in demand for new capacity / availability (including geographical regions)
-* **Anti-pattern**: Are there since points of failure / individuals that cause a bottleneck
 * **Anti-pattern**: Does your 'thing' depend upon tight coupling / specific vendor drivers or use things like DB Links rather than through a managed versioned API
 * **Anti-pattern**: Do you upstream / downstream producers / consumers need your 'thing' to coordinate a release (e.g. release train) or can they release independently as frequently as they need to
 
