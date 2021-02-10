@@ -8,7 +8,7 @@ The Independent Service Heuristics (ISH) are rules-of-thumb (clues) for identify
 
 ## Overview
 
-When designing organizations for fast flow of change, we need to find effective boundaries between different streams of change. Techniques like Domain Driven Design (DDD) are very powerful for this, but can be quite involved and difficult to learn. An lightweight intermediate approach is to ask "could this thing be run as a cloud-hosted (SaaS) service or product?". 
+When designing organizations for fast flow of change, we need to find effective boundaries between different streams of change. Techniques like Domain Driven Design (DDD) are very powerful for this, but can be quite involved and difficult to learn. A lightweight intermediate approach is to ask "could this thing be run as a cloud-hosted (SaaS) service or product?". 
 
 The ISH approach covers many typical situations in modern software but not all. It's designed to stimulate conversation and provide a frame for thinking, not as a perfect "catch-all" tool. 
 
