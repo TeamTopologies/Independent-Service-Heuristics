@@ -31,7 +31,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
 4. **Cost tracking**: Could the organisation currently track costs and investment in this thing separately from similar things? 
     - Is the thing too interconnected with other things in the organisation? Or fairly separate?
     - Does the organisation track this separately?
-5. **Data**: Could this thing operate with minimal data from other sources?
+5. **Data**: Could this thing operate with minimal data (or well-defined data) from other sources?
     - Is the thing dependent on lots of data from multiple sources? Or fairly independent?
     - Are the sources internal (under our control) or external?
 6. **User Personas**: Could this thing have a small/well-defined set of user types or customers (user personas)?
