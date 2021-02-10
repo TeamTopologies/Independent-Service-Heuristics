@@ -50,6 +50,18 @@ Use the checklist below to ask questions about the candidate domain / service / 
 * **Wardley Maps**: could the capability or service be outsourced to a SaaS Product or Commodity provider? Will it likely be outsource-able soon? If so, it's a candidate for splitting off as a separate service in preparation for possible outsourcing to a Product or Commodity provider. 
 * **Risk**: what is the cost of risk of splitting this capability or service? Could something go wrong?
 
+### Additional Considerations
+
+* **Skills Liquidity**: Team vs members of the team - consider skills liquidity
+* **Loose Couple**: Does this 'thing' make sense to independently migrate / deploy in the public cloud independent of related 'things' 
+* **Tight Coupling**: Do you have any dependencies on vendor / 3rd party software that prevents scaling if demand increases 
+* **Commercial Opportunity**: Is there demand for this 'thing' outside of the context of its current usage, could this be used more broadly within your organization or to different customer segments.
+* **Data Governance**: Does this 'thing' as as a master or authoritative source for key static / reference / client data?
+* **Interfact Contracts**: Do you have versioned interface contracts and the ability to deploy new versions without impacting existing 'customers' (consumers)
+* **Resilience / scalability**: as demand for your 'thing' scales do you have a linear increase in demand for new capacity / availability (including geographical regions)
+* **Anti-pattern**: Does your 'thing' depend upon tight coupling / specific vendor drivers or use things like DB Links rather than through a managed versioned API
+* **Anti-pattern**: Do you upstream / downstream producers / consumers need your 'thing' to coordinate a release (e.g. release train) or can they release independently as frequently as they need to
+
 > Thank you to the people at the [DDD London meetup group](https://www.meetup.com/dddlondon/events/265895638) for their input on an early version of the Independent Service Heuristics. 😻 
 
 ## Resources
