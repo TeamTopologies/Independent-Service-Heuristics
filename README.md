@@ -1,6 +1,6 @@
 # Independent Service Heuristics
 
-Rules-of-thumb (clues) for identifying candidate value streams and domain boundaries by seeing if they could be run as a separate SaaS/cloud product. Based on some of the ideas in the book _Team Topologies_ by Matthew Skelton [@matthewskelton](https://github.com/matthewskelton) and Manuel Pais [@manupaisable](https://github.com/manupaisable).
+The Independent Service Heuristics (ISH) are rules-of-thumb (clues) for identifying candidate value streams and domain boundaries by seeing if they could be run as a separate SaaS/cloud product. Based on some of the ideas in the book _Team Topologies_ by Matthew Skelton [@matthewskelton](https://github.com/matthewskelton) and Manuel Pais [@manupaisable](https://github.com/manupaisable).
 
 > See [teamtopologies.com](https://teamtopologies.com/) for more details about Team Topolologies.
 
@@ -9,6 +9,8 @@ Rules-of-thumb (clues) for identifying candidate value streams and domain bounda
 ## Overview
 
 When designing organizations for fast flow of change, we need to find effective boundaries between different streams of change. Techniques like Domain Driven Design (DDD) are very powerful for this, but can be quite involved and difficult to learn. An lightweight intermediate approach is to ask "could this thing be run as a cloud-hosted (SaaS) service or product?". 
+
+The ISH approach covers many typical situations in modern software but not all. It's designed to stimulate conversation and provide a frame for thinking, not as a perfect "catch-all" tool. 
 
 ## How to use
 
@@ -40,3 +42,19 @@ Use the checklist below to ask questions about the candidate domain / service / 
 7. **Teams**: Could a team or set of teams effectively build and operate a service based on this thing?
     - Would the cognitive load be too high for a team or a set of teams?
     - Would significant infrastructure be needed?
+
+## Further considerations
+
+* **Vocabulary**: is the vocabulary consistent between different parts of the system or different business domains? If not (if the same word means something different in different areas), then there may need to be two different services or systems.
+* **Phases**: does one part of a system deal with an earlier or later phase in processing? This may also represent a good boundary.
+* **Wardley Maps**: could the capability or service be outsourced to a SaaS Product or Commodity provider? Will it likely be outsource-able soon? If so, it's a candidate for splitting off as a separate service in preparation for possible outsourcing to a Product or Commodity provider. 
+* **Risk**: what is the cost of risk of splitting this capability or service? Could something go wrong?
+
+> Thank you to the people at the [DDD London meetup group](https://www.meetup.com/dddlondon/events/265895638) for their input on an early version of the Independent Service Heuristics. 😻 
+
+## Resources
+
+* Read more about [Team Topologies](https://teamtopologies.com/key-concepts)
+* Explore [Domain-Driven Design Heuristics](https://www.dddheuristics.com/) - part of the excellent [virtualDDD.com](https://virtualDDD.com/) community
+* Learn how to use [Event Storming](https://techbeacon.com/devops/introduction-event-storming-easy-way-achieve-domain-driven-design) to discover different business domains - this can be a good 'bridge' to Domain-driven Design (DDD) - _thanks to [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb) for this insight_ 
+* Discover [Wardley Maps](https://hiredthought.com/2018/09/01/intro-to-wardley-mapping/)
