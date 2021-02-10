@@ -62,7 +62,6 @@ Use the checklist below to ask questions about the candidate domain / service / 
 * **Anti-pattern**: Does your 'thing' depend upon tight coupling / specific vendor drivers or use things like DB Links rather than through a managed versioned API
 * **Anti-pattern**: Do you upstream / downstream producers / consumers need your 'thing' to coordinate a release (e.g. release train) or can they release independently as frequently as they need to
 
-> Thank you to the people at the [DDD London meetup group](https://www.meetup.com/dddlondon/events/265895638) for their input on an early version of the Independent Service Heuristics. 😻 
 
 ## Resources
 
@@ -70,3 +69,13 @@ Use the checklist below to ask questions about the candidate domain / service / 
 * Explore [Domain-Driven Design Heuristics](https://www.dddheuristics.com/) - part of the excellent [virtualDDD.com](https://virtualDDD.com/) community
 * Learn how to use [Event Storming](https://techbeacon.com/devops/introduction-event-storming-easy-way-achieve-domain-driven-design) to discover different business domains - this can be a good 'bridge' to Domain-driven Design (DDD) - _thanks to [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb) for this insight_ 
 * Discover [Wardley Maps](https://hiredthought.com/2018/09/01/intro-to-wardley-mapping/)
+
+## Acknowledgments
+
+> Thank you to the people at the [DDD London meetup group](https://www.meetup.com/dddlondon/events/265895638) for their input on an early version of the Independent Service Heuristics. 😻 
+
+Thanks also to:
+
+* [Nick Tune](https://github.com/ntcoding) and the [DDD Crew](https://github.com/ddd-crew) for awesome DDD resources
+* [Kacper Gunia](https://github.com/cakper) for the invitation to speak at DDD London meetup
+* [all contributors to this repository](graphs/contributors)
