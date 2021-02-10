@@ -58,7 +58,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
 * **Data governance**: Does this 'thing' as as a master or authoritative source for key static / reference / client data?
 * **Interface contracts**: Do you have versioned interface contracts and the ability to deploy new versions without impacting existing 'customers' (consumers)?
 * **Resilience / scalability**: as demand for your 'thing' scales do you have a linear increase in demand for new capacity / availability (including geographical regions)?
-* **Skills Liquidity**: Team vs members of the team - consider skills liquidity
+* **Skills liquidity**: consider the skills mix in the teams. Can the teams each own their service/system after the split?
 * **Anti-pattern - data coupling**: Does your 'thing' depend upon tight coupling / specific vendor drivers or use things like DB Links rather than through a managed versioned API?
 * **Anti-pattern - release coordination**: Do you upstream / downstream producers / consumers need your 'thing' to coordinate a release (e.g. release train) or can they release independently as frequently as they need to?
 
@@ -69,6 +69,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
 * Explore [Domain-Driven Design Heuristics](https://www.dddheuristics.com/) - part of the excellent [virtualDDD.com](https://virtualDDD.com/) community
 * Learn how to use [Event Storming](https://techbeacon.com/devops/introduction-event-storming-easy-way-achieve-domain-driven-design) to discover different business domains - this can be a good 'bridge' to Domain-driven Design (DDD) - _thanks to [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb) for this insight_ 
 * Discover [Wardley Maps](https://hiredthought.com/2018/09/01/intro-to-wardley-mapping/)
+* Read about [Skills Liquidity by Rob England](https://theitriskmanager.com/2013/11/24/introducing-staff-liquidity-1-of-n/)
 
 ## Acknowledgments
 
