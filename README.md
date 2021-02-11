@@ -79,4 +79,4 @@ Thanks also to:
 
 * [Nick Tune](https://github.com/ntcoding) and the [DDD Crew](https://github.com/ddd-crew) for awesome DDD resources
 * [Kacper Gunia](https://github.com/cakper) for the invitation to speak at DDD London meetup
-* [all contributors to this repository](graphs/contributors)
+* [all contributors to this repository](https://github.com/TeamTopologies/Independent-Service-Heuristics/graphs/contributors)
