@@ -69,7 +69,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
 * Explore [Domain-Driven Design Heuristics](https://www.dddheuristics.com/) - part of the excellent [virtualDDD.com](https://virtualDDD.com/) community
 * Learn how to use [Event Storming](https://techbeacon.com/devops/introduction-event-storming-easy-way-achieve-domain-driven-design) to discover different business domains - this can be a good 'bridge' to Domain-driven Design (DDD) - _thanks to [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb) for this insight_ 
 * Discover [Wardley Maps](https://hiredthought.com/2018/09/01/intro-to-wardley-mapping/)
-* Read about [Skills Liquidity by Rob England](https://theitriskmanager.com/2013/11/24/introducing-staff-liquidity-1-of-n/)
+* Read about [Skills Liquidity by Chris Matts](https://theitriskmanager.com/2013/11/24/introducing-staff-liquidity-1-of-n/)
 
 ## Acknowledgments
 
