@@ -16,7 +16,7 @@ The ISH approach covers many typical situations in modern software but not all. 
 
 Choose an area of the organisation's focus to be represented in software: a user journey, a "product", a possible business domain, a software service, an entire software application, a set of tasks for a single user persona, a possible value stream, etc.
 
-Use the checklist below to ask questions about the candidate domain / service / application / value stream. The more "yes" or "probably" answers, the greater the chance that you have found a good candidate for being a separate stream of change. This means that we could arrange one or more Stream-Aligned teams to this area.- 
+Use the checklist below to ask questions about the candidate domain / service / application / value stream. The more "yes" or "probably" answers, the greater the chance that you have found a good candidate for being a separate stream of change. This means that we could arrange one or more Stream-Aligned teams to this area.
 
 ## Checklist
 
@@ -25,23 +25,37 @@ Use the checklist below to ask questions about the candidate domain / service / 
     - Would consumers understand or value it?
     - Would it simplify execution?
 2. **Brand**: Could you imagine this thing branded as a public cloud service (like _AvocadoOnline.com_ 🥑)?
+    - Would it be a viable business (or "micro-business") or service?
     - Would it be a compelling offering?
     - Could a marketing campaign be convincing?
 3. **Revenue/Customers**: Could this thing be managed as a viable cloud service in terms of revenue and customers?
+    - Would it be a viable business (or "micro-business") or service?
     - What would a subscription payment include?
     - Is there a clearly-defined customer base or segment?
 4. **Cost tracking**: Could the organisation currently track costs and investment in this thing separately from similar things? 
+    - Are the full costs of running this thing transparent or possible to discover? Consider infrastructure costs, data storage costs, data transfer costs, licence costs, etc.
     - Is the thing too interconnected with other things in the organisation? Or fairly separate?
     - Does the organisation track this separately?
-5. **Data**: Could this thing operate with minimal data (or well-defined data) from other sources?
+5. **Data**: Is it possible to define clearly the input data (from other sources) that this things needs?
     - Is the thing dependent on lots of data from multiple sources? Or fairly independent?
     - Are the sources internal (under our control) or external?
+    - Is the input data clean or messy?
+    - Is the input data provided in a self-service way? Can the team consume the input data "as a service"?
 6. **User Personas**: Could this thing have a small/well-defined set of user types or customers (user personas)?
     - Is the thing meeting specific user needs?
-    - Do we know (or can we easily characterise) these users and their needs?
+    - Do we know (or can we easily articulate) these user types and their needs?
 7. **Teams**: Could a team or set of teams effectively build and operate a service based on this thing?
-    - Would the cognitive load be too high for a team or a set of teams?
-    - Would significant infrastructure be needed?
+    - Would the cognitive load (breadth of topics/context switching) be bounded to help the team focus and succeed?
+    - Would significant infrastructure or other platform abstractions be needed?
+8. **Dependencies**: Would this team be able to act independently of other teams for the majority of the time to achieve their objectives?
+    - Is this thing logically independent from other things?
+    - Could the team "self-serve" dependencies in a non-blocking manner from a platform?
+9. **Impact/Value**: Would the scope of this thing provide a team with an impactful and engaging challenge?
+    - Is the scope big enough to provide an impact? Would the scope be engaging for talented people?
+    - Is there sufficient value to customers and the organization that the value would be clearly recognized?
+10. **Product Decisions**: Would the team working on this thing be able to "own" their own product roadmap and the product direction? 
+    - Does this thing provide discrete value in a well-defined sphere of execution? 
+    - Can the team define their own roadmap based on what they discover is best for the product and its users, or is the team always driven by the requirements and priorities of other teams?
 
 ## Further considerations
 
