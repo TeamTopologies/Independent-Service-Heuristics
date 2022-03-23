@@ -29,24 +29,24 @@ Use the checklist below to ask questions about the candidate domain / service / 
     - Would it be a compelling offering?
     - Could a marketing campaign be convincing?
 3. **Revenue/Customers**: Could this thing be managed as a viable cloud service in terms of revenue and customers?
-    - Would it be a viable business (or "micro-business") or service?
-    - What would a subscription payment include?
+    - Would it be viable service with a paid offering?
+    - Would it bring recurring revenue with subscription plans?
     - Is there a clearly-defined customer base or segment?
 4. **Cost tracking**: Could the organisation currently track costs and investment in this thing separately from similar things? 
-    - Are the full costs of running this thing transparent or possible to discover? Consider infrastructure costs, data storage costs, data transfer costs, licence costs, etc.
-    - Is the thing too interconnected with other things in the organisation? Or fairly separate?
+    - Are the full costs of running this thing transparent or possible to discover considering infrastructure costs, data storage costs, data transfer costs, licence costs, etc.?
+    - Is this thing fairly separate, disconnected from other things in the organisation?
     - Does the organisation track this separately?
-5. **Data**: Is it possible to define clearly the input data (from other sources) that this things needs?
-    - Is the thing dependent on lots of data from multiple sources? Or fairly independent?
-    - Are the sources internal (under our control) or external?
-    - Is the input data clean or messy?
+5. **Data**: Is it possible to define clearly the input data (from other sources) that this thing needs?
+    - Is the thing faily independent from any data sources?
+    - Are the sources internal (under our control, not external)?
+    - Is the input data clean (not messy)?
     - Is the input data provided in a self-service way? Can the team consume the input data "as a service"?
 6. **User Personas**: Could this thing have a small/well-defined set of user types or customers (user personas)?
     - Is the thing meeting specific user needs?
     - Do we know (or can we easily articulate) these user types and their needs?
 7. **Teams**: Could a team or set of teams effectively build and operate a service based on this thing?
     - Would the cognitive load (breadth of topics/context switching) be bounded to help the team focus and succeed?
-    - Would significant infrastructure or other platform abstractions be needed?
+    - Would significant infrastructure or other platform abstractions be unnecessary?
 8. **Dependencies**: Would this team be able to act independently of other teams for the majority of the time to achieve their objectives?
     - Is this thing logically independent from other things?
     - Could the team "self-serve" dependencies in a non-blocking manner from a platform?
@@ -55,7 +55,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
     - Is there sufficient value to customers and the organization that the value would be clearly recognized?
 10. **Product Decisions**: Would the team working on this thing be able to "own" their own product roadmap and the product direction? 
     - Does this thing provide discrete value in a well-defined sphere of execution? 
-    - Can the team define their own roadmap based on what they discover is best for the product and its users, or is the team always driven by the requirements and priorities of other teams?
+    - Can the team define their own roadmap based on what they discover is best for the product and its users (so that the team is not driven by the requirements and priorities of other teams)?
 
 ## Further considerations
 
