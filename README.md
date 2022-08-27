@@ -8,9 +8,9 @@ The Independent Service Heuristics (ISH) are rules-of-thumb (clues) for identify
 
 ## Overview
 
-When designing organizations for fast flow of change, we need to find effective boundaries between different streams of change. Techniques like Domain Driven Design (DDD) are very powerful for this, but can be quite involved and difficult to learn. A lightweight intermediate approach is to ask "could this thing be run as a cloud-hosted (SaaS) service or product?". 
+When designing organizations for fast flow of change, we need to find effective boundaries between different streams of change. Techniques like Domain Driven Design (DDD) are very powerful for this, but can be quite involved and difficult to learn. A lightweight intermediate approach is to ask "could this thing be run as a cloud-hosted (SaaS) service or product?".
 
-The ISH approach covers many typical situations in modern software but not all. It's designed to stimulate conversation and provide a frame for thinking, not as a perfect "catch-all" tool. 
+The ISH approach covers many typical situations in modern software but not all. It's designed to stimulate conversation and provide a frame for thinking, not as a perfect "catch-all" tool.
 
 ## How to use
 
@@ -32,12 +32,12 @@ Use the checklist below to ask questions about the candidate domain / service / 
     - Would it be viable service with a paid offering?
     - Would it bring recurring revenue with subscription plans?
     - Is there a clearly-defined customer base or segment?
-4. **Cost tracking**: Could the organisation currently track costs and investment in this thing separately from similar things? 
+4. **Cost tracking**: Could the organisation currently track costs and investment in this thing separately from similar things?
     - Are the full costs of running this thing transparent or possible to discover considering infrastructure costs, data storage costs, data transfer costs, licence costs, etc.?
     - Is this thing fairly separate, disconnected from other things in the organisation?
     - Does the organisation track this separately?
 5. **Data**: Is it possible to define clearly the input data (from other sources) that this thing needs?
-    - Is the thing faily independent from any data sources?
+    - Is the thing fairly independent from any data sources?
     - Are the sources internal (under our control, not external)?
     - Is the input data clean (not messy)?
     - Is the input data provided in a self-service way? Can the team consume the input data "as a service"?
@@ -53,20 +53,20 @@ Use the checklist below to ask questions about the candidate domain / service / 
 9. **Impact/Value**: Would the scope of this thing provide a team with an impactful and engaging challenge?
     - Is the scope big enough to provide an impact? Would the scope be engaging for talented people?
     - Is there sufficient value to customers and the organization that the value would be clearly recognized?
-10. **Product Decisions**: Would the team working on this thing be able to "own" their own product roadmap and the product direction? 
-    - Does this thing provide discrete value in a well-defined sphere of execution? 
+10. **Product Decisions**: Would the team working on this thing be able to "own" their own product roadmap and the product direction?
+    - Does this thing provide discrete value in a well-defined sphere of execution?
     - Can the team define their own roadmap based on what they discover is best for the product and its users (so that the team is not driven by the requirements and priorities of other teams)?
 
 ## Further considerations
 
 * **Vocabulary**: is the vocabulary consistent between different parts of the system or different business domains? If not (if the same word means something different in different areas), then there may need to be two different services or systems.
 * **Phases**: does one part of a system deal with an earlier or later phase in processing? This may also represent a good boundary.
-* **Wardley Maps**: could the capability or service be outsourced to a SaaS Product or Commodity provider? Will it likely be outsource-able soon? If so, it's a candidate for splitting off as a separate service in preparation for possible outsourcing to a Product or Commodity provider. 
+* **Wardley Maps**: could the capability or service be outsourced to a SaaS Product or Commodity provider? Will it likely be outsource-able soon? If so, it's a candidate for splitting off as a separate service in preparation for possible outsourcing to a Product or Commodity provider.
 * **Risk**: what is the cost of risk of splitting this capability or service? Could something go wrong?
 
 ### Detailed considerations
 
-* **Loose coupling**: Does this 'thing' make sense to independently migrate / deploy in the public cloud independent of related 'things'? 
+* **Loose coupling**: Does this 'thing' make sense to independently migrate / deploy in the public cloud independent of related 'things'?
 * **Tight coupling**: Do you have any dependencies on vendor / 3rd party software that prevents scaling if demand increases ?
 * **Commercial opportunity**: Is there demand for this 'thing' outside of the context of its current usage? Could this be used more broadly within your organization or to different customer segments?
 * **Data governance**: Does this 'thing' as as a master or authoritative source for key static / reference / client data?
@@ -76,18 +76,17 @@ Use the checklist below to ask questions about the candidate domain / service / 
 * **Anti-pattern - data coupling**: Does your 'thing' depend upon tight coupling / specific vendor drivers or use things like DB Links rather than through a managed versioned API?
 * **Anti-pattern - release coordination**: Do you upstream / downstream producers / consumers need your 'thing' to coordinate a release (e.g. release train) or can they release independently as frequently as they need to?
 
-
 ## Resources
 
 * Read more about [Team Topologies](https://teamtopologies.com/key-concepts)
 * Explore [Domain-Driven Design Heuristics](https://www.dddheuristics.com/) - part of the excellent [virtualDDD.com](https://virtualDDD.com/) community
-* Learn how to use [Event Storming](https://techbeacon.com/devops/introduction-event-storming-easy-way-achieve-domain-driven-design) to discover different business domains - this can be a good 'bridge' to Domain-driven Design (DDD) - _thanks to [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb) for this insight_ 
+* Learn how to use [Event Storming](https://techbeacon.com/devops/introduction-event-storming-easy-way-achieve-domain-driven-design) to discover different business domains - this can be a good 'bridge' to Domain-driven Design (DDD) - _thanks to [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb) for this insight_
 * Discover [Wardley Maps](https://hiredthought.com/2018/09/01/intro-to-wardley-mapping/)
 * Read about [Skills Liquidity by Chris Matts](https://theitriskmanager.com/2013/11/24/introducing-staff-liquidity-1-of-n/)
 
 ## Acknowledgments
 
-> Thank you to the people at the [DDD London meetup group](https://www.meetup.com/dddlondon/events/265895638) for their input on an early version of the Independent Service Heuristics. 😻 
+> Thank you to the people at the [DDD London meetup group](https://www.meetup.com/dddlondon/events/265895638) for their input on an early version of the Independent Service Heuristics. 😻
 
 Thanks also to:
 
