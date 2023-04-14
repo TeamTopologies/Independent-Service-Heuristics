@@ -78,6 +78,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
 
 ## Resources
 
+* Watch [Matthew Skelton](https://github.com/matthewskelton) and [Nick Tune](https://github.com/ntcoding)'s [talk on ISH from DDD Europe 2022](https://www.youtube.com/watch?v=q8hwkDyL6Zs)
 * Read more about [Team Topologies](https://teamtopologies.com/key-concepts)
 * Explore [Domain-Driven Design Heuristics](https://www.dddheuristics.com/) - part of the excellent [virtualDDD.com](https://virtualDDD.com/) community
 * Learn how to use [Event Storming](https://techbeacon.com/devops/introduction-event-storming-easy-way-achieve-domain-driven-design) to discover different business domains - this can be a good 'bridge' to Domain-driven Design (DDD) - _thanks to [Rebecca Wirfs-Brock](https://twitter.com/rebeccawb) for this insight_
