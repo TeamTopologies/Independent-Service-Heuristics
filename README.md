@@ -69,7 +69,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
 * **Loose coupling**: Does this 'thing' make sense to independently migrate / deploy in the public cloud independent of related 'things'?
 * **Tight coupling**: Do you have any dependencies on vendor / 3rd party software that prevents scaling if demand increases ?
 * **Commercial opportunity**: Is there demand for this 'thing' outside of the context of its current usage? Could this be used more broadly within your organization or to different customer segments?
-* **Data governance**: Does this 'thing' as as a master or authoritative source for key static / reference / client data?
+* **Data governance**: Does this 'thing' act as a master or authoritative source for key static / reference / client data?
 * **Interface contracts**: Do you have versioned interface contracts and the ability to deploy new versions without impacting existing 'customers' (consumers)?
 * **Resilience / scalability**: as demand for your 'thing' scales do you have a linear increase in demand for new capacity / availability (including geographical regions)?
 * **Skills liquidity**: consider the skills mix in the teams. Can the teams each own their service/system after the split?
