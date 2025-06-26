@@ -2,7 +2,7 @@
 
 The Independent Service Heuristics (ISH) are rules-of-thumb (clues) for identifying candidate value streams and domain boundaries by seeing if they could be run as a separate SaaS/cloud product. Based on some of the ideas in the book _Team Topologies_ by Matthew Skelton [@matthewskelton](https://github.com/matthewskelton) and Manuel Pais [@manupaisable](https://github.com/manupaisable).
 
-> See [teamtopologies.com](https://teamtopologies.com/) for more details about Team Topolologies.
+> See [teamtopologies.com](https://teamtopologies.com/) for more details about Team Topologies.
 
 > Copyright © 2018-2021 [Team Topologies](https://teamtopologies.com/) - Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
 
@@ -29,7 +29,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
     - Would it be a compelling offering?
     - Could a marketing campaign be convincing?
 3. **Revenue/Customers**: Could this thing be managed as a viable cloud service in terms of revenue and customers?
-    - Would it be viable service with a paid offering?
+    - Would it a be viable service with a paid offering?
     - Would it bring recurring revenue with subscription plans?
     - Is there a clearly-defined customer base or segment?
 4. **Cost tracking**: Could the organisation currently track costs and investment in this thing separately from similar things?
