@@ -29,7 +29,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
     - Would it be a compelling offering?
     - Could a marketing campaign be convincing?
 3. **Revenue/Customers**: Could this thing be managed as a viable cloud service in terms of revenue and customers?
-    - Would it a be viable service with a paid offering?
+    - Would it be a viable service with a paid offering?
     - Would it bring recurring revenue with subscription plans?
     - Is there a clearly-defined customer base or segment?
 4. **Cost tracking**: Could the organisation currently track costs and investment in this thing separately from similar things?
