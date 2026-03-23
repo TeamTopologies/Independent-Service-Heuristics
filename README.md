@@ -47,7 +47,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
 7. **Teams**: Could a team or set of teams effectively build and operate a service based on this thing?
     - Would the cognitive load (breadth of topics/context switching) be bounded to help the team focus and succeed?
     - Would significant infrastructure or other platform abstractions be unnecessary?
-8. **Dependencies**: Would this team be able to act independently of other teams for the majority of the time to achieve their objectives?
+8. **Dependencies**: Would team responsible for this thing be able to act independently of other teams for the majority of the time to achieve their objectives?
     - Is this thing logically independent from other things?
     - Could the team "self-serve" dependencies in a non-blocking manner from a platform?
 9. **Impact/Value**: Would the scope of this thing provide a team with an impactful and engaging challenge?
@@ -59,10 +59,10 @@ Use the checklist below to ask questions about the candidate domain / service / 
 
 ## Further considerations
 
-* **Vocabulary**: is the vocabulary consistent between different parts of the system or different business domains? If not (if the same word means something different in different areas), then there may need to be two different services or systems.
-* **Phases**: does one part of a system deal with an earlier or later phase in processing? This may also represent a good boundary.
-* **Wardley Maps**: could the capability or service be outsourced to a SaaS Product or Commodity provider? Will it likely be outsource-able soon? If so, it's a candidate for splitting off as a separate service in preparation for possible outsourcing to a Product or Commodity provider.
-* **Risk**: what is the cost of risk of splitting this capability or service? Could something go wrong?
+* **Vocabulary**: is the vocabulary consistent between different 'things'? If not (if the same word means something different in different areas), then there may need to be two different things.
+* **Phases**: does one 'thing' deal with an earlier or later phase in processing? This may also represent a good boundary.
+* **Wardley Maps**: could the 'thing' be outsourced to a SaaS Product or Commodity provider? Will it likely be outsource-able soon? If so, it's a candidate for splitting off as a separate 'thing' in preparation for possible outsourcing to a Product or Commodity provider.
+* **Risk**: what is the cost of risk of splitting this 'thing'? Could something go wrong?
 
 ### Detailed considerations
 
@@ -70,7 +70,7 @@ Use the checklist below to ask questions about the candidate domain / service / 
 * **Tight coupling**: Do you have any dependencies on vendor / 3rd party software that prevents scaling if demand increases ?
 * **Commercial opportunity**: Is there demand for this 'thing' outside of the context of its current usage? Could this be used more broadly within your organization or to different customer segments?
 * **Data governance**: Does this 'thing' act as a master or authoritative source for key static / reference / client data?
-* **Interface contracts**: Do you have versioned interface contracts and the ability to deploy new versions without impacting existing 'customers' (consumers)?
+* **Interface contracts**: Does the thing have versioned interface contracts and the ability to deploy new versions without impacting existing 'customers' (consumers)?
 * **Resilience / scalability**: as demand for your 'thing' scales do you have a linear increase in demand for new capacity / availability (including geographical regions)?
 * **Skills liquidity**: consider the skills mix in the teams. Can the teams each own their service/system after the split?
 * **Anti-pattern - data coupling**: Does your 'thing' depend upon tight coupling / specific vendor drivers or use things like DB Links rather than through a managed versioned API?
